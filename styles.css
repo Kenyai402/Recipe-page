@@ -1,0 +1,173 @@
+body {
+  background-color: hsl(30, 54%, 90%);
+  display: grid;
+  max-height: 170vh;
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 13px;
+  color: hsl(30, 10%, 34%);
+}
+
+.grid-container {
+  background-color: hsl(0, 0%, 100%);
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  border-radius: 20px;
+  width: 90%;
+  margin: 10% 10% 10% 10%;
+  padding: 40px;
+  max-height: 90vh;
+  font-size: 25px;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+h4 {
+  color: hsl(332, 51%, 32%);
+}
+p {
+  font-size: 13px;
+}
+h1 {
+  color: hsl(24, 5%, 18%);
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.heading {
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: hsl(14, 45%, 36%);
+}
+.preparation {
+  background-color: hsl(330, 100%, 98%);
+  width: 90%;
+  height: auto;
+}
+.span-item {
+  color: hsl(30, 10%, 34%);
+  font-weight: 600;
+}
+.nutrition-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+.nutrition-table td {
+  padding: 12px 15px;
+  border-bottom: 1px solid #ddd;
+}
+
+.nutrition-table tr:last-child td {
+  border-bottom: none;
+}
+
+.nutrition-table td:first-child {
+  font-weight: bold;
+  width: 40%;
+}
+.nutrition-title {
+  color: hsl(14, 45%, 36%);
+  font-weight: 600;
+}
+
+.attribution {
+  font-size: 11px;
+  /* text-align: center; */
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media screen and (min-width: 360px) {
+  body {
+    background-color: hsl(30, 54%, 90%);
+    display: grid;
+
+    max-height: 250vh;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+  }
+  .grid-container {
+    display: grid;
+    font-size: 13px;
+
+    width: 70%;
+    padding: 20px;
+    max-height: 230vh;
+    margin: 5% 10% 5% 10%;
+  }
+  .table {
+    width: 50%;
+  }
+  .preparation {
+    background-color: hsl(330, 100%, 98%);
+
+    width: auto;
+    height: auto;
+  }
+}
+@media screen and (min-width: 768px) {
+  .grid-container {
+    width: 85%;
+    margin: 5% 10% 5% 5%;
+    padding: 20px;
+    max-height: 190vh;
+    font-size: 25px;
+  }
+  body {
+    background-color: hsl(30, 54%, 90%);
+    display: grid;
+    max-height: 200vh;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+
+    color: hsl(30, 10%, 34%);
+  }
+  p {
+    font-size: 10px;
+  }
+  .preparation {
+    background-color: hsl(330, 100%, 98%);
+    width: auto;
+    height: auto;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .grid-container {
+    width: 90%;
+    margin: 5% 10% 5% 5%;
+    padding: 20px;
+    max-height: 400vh;
+    font-size: 25px;
+  }
+  body {
+    background-color: hsl(30, 54%, 90%);
+    display: grid;
+    max-height: 400vh;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: hsl(30, 10%, 34%);
+  }
+  p {
+    font-size: 20px;
+  }
+  .preparation {
+    background-color: hsl(330, 100%, 98%);
+    width: auto;
+    height: auto;
+  }
+}
